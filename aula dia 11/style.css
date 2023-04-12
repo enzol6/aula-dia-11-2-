@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+
+.container{
+    width: 100%;
+    border: 1px solid rgb(255, 254, 254)
+}
+#cabecalho{
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    height: 100px;
+    background-color: #0077ff;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+a{
+    padding: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#areaimagem{
+    height: 200px;
+    background-color: #410096;
+
+}
+#corpopagina1{
+
+    height: 300px;
+    background-color: #09db1a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#corpopagina2{
+    height: 300px;
+    background-color:#09db1a ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.box{
+    text-align: center;
+    font-size: larger;
+    font-style: normal;
+    width: 25%;
+    height: 200px;
+    border: 1px solid black;  
+
+}
+#rodape{
+    height: 150px;
+    background-color:#0077ff ;
+}
+#Sobre{
+    color: white;
+    font-size: 50px;
+    font-style: oblique;
+}
+body,html{
+    height: 100% ;
+    margin: 0;
+}
+
+#corinthians{
+background-image: url(corinthians.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
